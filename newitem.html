@@ -1,0 +1,101 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="style/image/shop.jpg">
+    <link rel="stylesheet" href="style/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/admincss.css">
+    <link rel="stylesheet" href="style/media.css">
+    <title>otutu resources</title>
+</head>
+<body>
+    
+    <div>
+        <div class="top-menu">
+            <div class="menu-name">
+                <h3>Otutu Resources Improvement</h3>
+            </div>
+            <div class="menu-search">
+                <form action="">
+                    <input type="text" placeholder="Enter Item Name" name="item">
+                    <button>Search</button>
+                </form>
+            </div>
+            <div class="bars">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+        <div class="boad">
+            <div class="left-menu">
+                <a href="dashboad.html" class="menu-nav-action">items</a>
+                <a href="sells.html">sells note</a>
+                <a href="credite.html">credite note</a>
+                <a href="users.html">all usrs</a>
+                <a href="newitem.html">add new item</a>
+                <a href="newuser.html">add new user</a>
+                <a href="order.html">orders</a>
+                <a href="profile.html">my profile</a>
+                <a href="index.html">log out</a>
+            </div>
+            <div class="boad-body">
+                <div class="item-con">
+                    <div class="item-info">
+                        <h3>add new item</h3>
+                    </div>
+                </div>
+                <hr>
+                <div class="items">
+                    <form action="" method="post" enctype="multipart/form-data">
+                        <div class="item">
+                            <div class="item-con">
+                                <div class="item-info">
+                                    <h3>item name</h3>
+                                    <input type="text" name="name" placeholder="Enter item name" required>
+                                </div>
+                                <div class="item-info">
+                                    <h3>out number</h3>
+                                    <input type="text" name="phone" placeholder="Enter out number" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item-con">
+                                <div class="item-info">
+                                    <h3>selling price</h3>
+                                    <input type="number" name="sprice" placeholder="Enter price" required>
+                                </div>
+                                <div class="item-info">
+                                    <h3>but price</h3>
+                                    <input type="number" name="bprice" placeholder="Enter but price">
+                                </div>
+                                <div class="item-info">
+                                    <h3>quantity</h3>
+                                    <input type="number" name="quantity" placeholder="Enter quantity" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item-con">
+                                <div class="item-info">
+                                    <h3>item image</h3>
+                                    <input type="file" name="image" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-buttom">
+                            <button>create item</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

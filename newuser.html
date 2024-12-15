@@ -1,0 +1,127 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="style/image/shop.jpg">
+    <link rel="stylesheet" href="style/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/admincss.css">
+    <link rel="stylesheet" href="style/media.css">
+    <title>otutu resources</title>
+</head>
+<body>
+    
+    <div>
+        <div class="top-menu">
+            <div class="menu-name">
+                <h3>Otutu Resources Improvement</h3>
+            </div>
+            <div class="menu-search">
+                <form action="">
+                    <input type="text" placeholder="Enter Item Name" name="item">
+                    <button>Search</button>
+                </form>
+            </div>
+            <div class="bars">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+        <div class="boad">
+            <div class="left-menu">
+                <a href="dashboad.html" class="menu-nav-action">items</a>
+                <a href="sells.html">sells note</a>
+                <a href="credite.html">credite note</a>
+                <a href="users.html">all usrs</a>
+                <a href="newitem.html">add new item</a>
+                <a href="newuser.html">add new user</a>
+                <a href="order.html">orders</a>
+                <a href="profile.html">my profile</a>
+                <a href="index.html">log out</a>
+            </div>
+            <div class="boad-body">
+                <div class="item-con">
+                    <div class="item-info">
+                        <h3>create new user</h3>
+                    </div>
+                </div>
+                <hr>
+                <div class="items">
+                    <form action="" method="post" enctype="multipart/form-data">
+                        <div class="item">
+                            <div class="item-con">
+                                <div class="item-info">
+                                    <h3>user name</h3>
+                                    <input type="text" name="uname" placeholder="Enter user name" required>
+                                </div>
+                                <div class="item-info">
+                                    <h3>user status</h3>
+                                    <select name="status" id="">
+                                        <option value="staff">Staff</option>
+                                        <option value="customer">Customer</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item-con">
+                                <div class="item-info">
+                                    <h3>first name</h3>
+                                    <input type="text" name="fname" placeholder="Enter first name" required>
+                                </div>
+                                <div class="item-info">
+                                    <h3>last number</h3>
+                                    <input type="text" name="lname" placeholder="Enter last name" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item-con">
+                                <div class="item-info">
+                                    <h3>user email</h3>
+                                    <input type="email" name="email" placeholder="Enter email" required>
+                                </div>
+                                <div class="item-info">
+                                    <h3>user pnone number</h3>
+                                    <input type="text" name="pnone" placeholder="Enter phone number">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item-con">
+                                <div class="item-info">
+                                    <h3>password</h3>
+                                    <div class="login-field">
+                                        <input type="password" placeholder="Enter password" name="pass1" class="pass" required>
+                                        <div class="eye">
+                                            <i class="fa fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-info">
+                                    <h3>confirm password</h3>
+                                    <div class="login-field">
+                                        <input type="password" placeholder="Confirm password" name="pass2" class="pass" required>
+                                        <div class="eye">
+                                            <i class="fa fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-buttom">
+                            <button>create user</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="style/js.js"></script>
+</html>
